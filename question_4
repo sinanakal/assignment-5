@@ -1,0 +1,30 @@
+# assignment-5
+import java.util.Scanner;
+
+public class question4 {
+
+	public static void main(String[] args) {
+/*Write a while loop that lets the user enter a number. The number should be multiplied by 10,
+ *  and the result stored in the variable product.
+ *  The loop should iterate as long as product contains a value less than 100.
+ */
+		Scanner s = new Scanner(System.in);
+		System.out.println("Please Enter an integer number:");
+		int num = s.nextInt();
+		
+		
+		int i=0;
+		
+		while(i<100) {
+			i=num*10;
+			num=i;
+			
+			System.out.println(num);
+			
+		}
+	
+
+		     
+
+	}
+	}
